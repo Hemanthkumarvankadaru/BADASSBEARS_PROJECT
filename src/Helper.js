@@ -1,0 +1,114 @@
+export  const aBrand =[
+    {
+        brandName:"carlsberg",
+        id:1,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_1.png?v=1683039052",
+        imgName     :"carlsberg",
+        quantity:"750ml",
+        price:"180"
+    },
+    {
+        brandName:"kingfisher",
+        id:2,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_2.png?v=1683039052",
+        imgName:"kingfisher",
+        quantity:"650ml",
+        price:"200"
+    },
+    {
+        brandName:"haywards",
+        id:3,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_3.png?v=1683039052",
+        imgName:"haywards",
+        quantity:"650ml",
+        price:"250"
+    },
+    {
+        brandName:"bira91",
+        id:4,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_4.png?v=1683039052",
+        imgName:"bira91",
+        quantity:"500ml",
+        price:"300"
+    },
+    {
+        brandName:"heineken",
+        id:5,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_5.png?v=1683039052",
+        imgName:"heineken",
+        quantity:"500ml",
+        price:"350"
+    },
+    {
+        brandName:"corona",
+        id:6,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_6.png?v=1683039052",
+        imgName:"corona",
+        quantity:"330ml",
+        price:"400"
+    },
+    {
+        brandName:"budweiser",
+        id:7,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_7.png?v=1683039052",
+        imgName:"budweiser",
+        quantity:"330ml",
+        price:"450"
+    },
+    {
+        brandName:"tuborg",
+        id:8,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_8.png?v=1683039052",
+        imgName:"tuborg",
+        quantity:"500ml",
+        price:"500"
+    },
+    {
+        brandName:"oldmonk",
+        id:9,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_9.png?v=1683039052",
+        imgName:"oldmonk",
+        quantity:"750ml",
+        price:"550"
+    
+    },{
+        brandName:"Royalstag",
+        id:10,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_10.png?v=1683039052",
+        imgName:"Royalstag",
+        quantity:"750ml",
+        price:"600"
+
+    },{
+        brandName:"Blenderspride",
+        id:11,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_11.png?v=1683039052",
+        imgName:"Blenderspride",
+        quantity:"750ml",
+        price:"650"
+    },{
+        brandName:"Jackdaniels",
+        id:12,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_12.png?v=1683039052",
+        imgName:"Jackdaniels",
+        quantity:"750ml",
+        price:"700"
+    },
+    {
+        brandName:"100 piper",
+        id:13,    
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_13.png?v=1683039052",
+        imgName:"100 piper",
+        quantity:"750ml",
+        price:"750"
+    
+    }
+    ,{
+        brandName:"Johnnie Walker",
+        id:14,
+        image:"https://cdn.shopify.com/s/files/1/0260/1957/2024/files/brand_14.png?v=1683039052",
+        imgName:"Johnnie Walker",
+        quantity:"750ml",
+        price:"800"
+    },
+];

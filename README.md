@@ -1,3 +1,5 @@
+BADASSBEAR is a fun UI project built with HTML, CSS, JavaScript, and React.js. It displays beer/alcohol names based on alcohol percentage. Created by two members to gain hands-on experience in front-end development and improve UI/UX skills using real-world concepts.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +70,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+

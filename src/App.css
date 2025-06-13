@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+.ComponentRender{
+  width:100vw;
+  overflow-x: hidden;
+  scrollbar-width: none
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.componentsData{
+  display: grid;
+  grid-template-columns:3fr 3fr 3fr 3fr;
+  gap: -10px;
+  padding:1rem 1rem 1rem 1rem;
+  scrollbar-width: none;
+  margin-top:2rem;
+  height: 85vh;
+  padding-bottom:5rem;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headerComponentContainer{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 10;
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  background-color: #f8f9fa;
 }
-
-.App-link {
-  color: #61dafb;
+.cart_page{
+  width: 100%;
+  height: 85vh;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1024px) {
+  .componentsData {
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 50px;
   }
-  to {
-    transform: rotate(360deg);
+  
+}
+@media screen and (max-width: 900px) {
+  .componentsData {
+    grid-template-columns: 1fr 1fr ;
+    margin-left: 50px;
   }
+  
+}
+@media screen and (max-width: 768px) {
+  .componentsData {
+    grid-template-columns: 1fr;margin-left:25px;
+    overflow-x: hidden;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  .componentsData {
+    grid-template-columns: 1fr;
+    margin-left:25px;
+    overflow-x: hidden;
+  }
+  
+}
+@media screen and (max-width: 320px) {
+  .componentsData {
+    grid-template-columns: 1fr;
+    margin-left:5px;
+    overflow-x: hidden;
+  }
+  
 }
